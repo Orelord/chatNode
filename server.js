@@ -16,6 +16,10 @@ app.configure(function() {
 app.get('/', function(req, res){
   res.render('home.jade');
 });
+app.get('/canvas', function(req, res){
+  res.render('canvas.jade');
+});
+
 
 
 
